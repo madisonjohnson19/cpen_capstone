@@ -1,11 +1,23 @@
-.App {
+.meat{
   text-align: center;
+  color: white;
+  background-color: #213D64;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.dropdownbox{
+  text-align: center;
+  width: 200px;
+  margin-left: 42.5%;
+
 }
+.header{
+  text-align: center;
+  background-color: #4071B4;
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -36,3 +48,4 @@
     transform: rotate(360deg);
   }
 }
+

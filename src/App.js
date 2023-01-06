@@ -19,22 +19,26 @@ function App() {
     <div className='meat'>
       <h1>Where Are You?</h1>
       <h2>West Wing Second Floor Luter</h2>
+      <div className='dropdownbox'>
       <Box sx={{ minWidth: 120 }}>
       <FormControl fullWidth>
-        <InputLabel id="demo-simple-select-label">Age</InputLabel>
-        <Select
+        <InputLabel id="demo-simple-select-label">Location</InputLabel>
+        <Select style={{color:"white"}}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
           value={age}
           label="Age"
           onChange={handleChange}
         >
-          <MenuItem value={10}>Ten</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
+          <MenuItem value={10}>Room 1</MenuItem>
+          <MenuItem value={20}>Room 2</MenuItem>
+          <MenuItem value={30}>Room 3</MenuItem>
         </Select>
       </FormControl>
     </Box>
+
+      </div>
+      
       
     </div>
     </div>
