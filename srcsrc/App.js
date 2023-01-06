@@ -7,10 +7,10 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 
 function App() {
-  const [age, setAge] = React.useState('');
+  const [location, setLocation] = React.useState('');
 
   const handleChange = (event) => {
-    setAge(event.target.value);
+    setLocation(event.target.value);
   };
   
   return (
@@ -26,7 +26,7 @@ function App() {
         <Select style={{color:"white"}}
           labelId="demo-simple-select-label"
           id="demo-simple-select"
-          value={age}
+          value={location}
           label="Age"
           onChange={handleChange}
         >
